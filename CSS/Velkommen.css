@@ -61,20 +61,23 @@
 
         margin: auto;
     }
-    .NewsLetterMailInput
-    {
-        
-    }
 
     .NewsletterEmail
     {
         width: 100%;
         min-height: 32px;
     }
+    .NewsLetterMailButtonContainer
+    {
+        background-color: rgb(243, 46, 46);
+        /*position, laves i forhold til at flytte knappen ned.*/
+        position:relative;
+    }
 
     .NewsletterButton 
     {
         background-color: #4CAF50; /* Green */
+        box-shadow: 0px 2px;
         border: none;
         color: white;
         padding: 10px 32px;
@@ -83,9 +86,10 @@
         display: inline-block;
         font-size: 16px;
         border-radius: 30px;
+        /*position, gør ikke som forventet og går ud af div*/
+        position:absolute;
+        bottom:0;
     }
-
-
 
    }
 
@@ -118,6 +122,69 @@
       height: 400px;
     }
     /*----- slut  af om os delen ------ */
+
+    /*----- start  af Nyhedsbrev ------ */
+    
+    .NewsLetterContainer
+    {
+        width: 100%;
+        min-height: 300px;
+        display:flex;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 10px;
+    }
+    .NewsLetterInfoBox
+    {
+        width: 60%;
+        min-height: 200px;
+        background-color: rgb(52, 152, 209);
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .InputContainer 
+    {
+        width: 50%;
+        min-height: 50px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        padding: 10px;
+
+        margin: auto;
+    }
+
+    .NewsletterEmail
+    {
+        width: 100%;
+        min-height: 32px;
+    }
+    .NewsLetterMailButtonContainer
+    {
+        background-color: rgb(243, 46, 46);
+        /*position, laves i forhold til at flytte knappen ned.*/
+        position:relative;
+    }
+
+    .NewsletterButton 
+    {
+        background-color: #4CAF50; /* Green */
+        box-shadow: 0px 2px;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 30px;
+        /*position, gør ikke som forventet og går ud af div*/
+        position:absolute;
+        bottom:0;
+    }
     
    }
 
@@ -152,7 +219,62 @@
       margin: 10px 20px 10px 20px;
     }
     /*----- slut  af om os delen ------ */
+        
+    .NewsLetterContainer
+    {
+        width: 100%;
+        min-height: 300px;
+        display:flex;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 10px;
+    }
+    .NewsLetterInfoBox
+    {
+        width: 80%;
+        min-height: 200px;
+        background-color: rgb(52, 152, 209);
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
 
+    .InputContainer 
+    {
+        width: 50%;
+        min-height: 50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: center;
+        padding: 10px;
+
+        margin: auto;
+    }
+
+    .NewsletterEmail
+    {
+        width: 100%;
+        min-height: 32px;
+    }
+    .NewsLetterMailButtonContainer
+    {
+        margin: 10px auto 10px auto;
+    }
+
+    .NewsletterButton 
+    {
+        background-color: #4CAF50; /* Green */
+        box-shadow: 0px 2px;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 30px;
+    }
 }
 
 

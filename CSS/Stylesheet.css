@@ -60,14 +60,6 @@
     text-align: right;
   }
 
-  /*Her skifter vi struktur i forhold til skærmstørrelse vis der er minimum 1024px bred.*/
-  @media screen and (min-width: 1101px) 
-  {
-    .navigation .menu {
-      display: block !important;
-      height: auto !important;
-    }
-}
   .navigation .menu li 
   {
     display: inline-block;
@@ -84,24 +76,86 @@
     font-size: 30px;
   }
   /*Her siger vi at de to første li'er som er i .menu til at float left da de er alle normalt sat til højre
-  og på den måde for vi del Navigation baren til at være splittet op som ønsket.*/
+  og på den måde for vi delt Navigation baren til at være splittet op som ønsket.*/
   .navigation .menu li:nth-child(1),
   .navigation .menu li:nth-child(2) 
   {
     float: left;
   }
-
-  .navigation .menu li:hover a {
-    background-color: rgb(105, 144, 253);
-    color: #fff;
+  /*Navbar hover effekt */
+  .navigation .menu li:hover a 
+  {
+    color: rgb(27, 224, 250);
   }
+
+   /*Her skifter vi struktur i forhold til skærmstørrelse vis der er minimum 1024px bred.*/
+   @media screen and (min-width: 1101px) 
+   {
+     .navigation .menu 
+     {
+       display: block !important;
+       height: auto !important;
+     }
+
+     .FooterContainer
+     {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       justify-items: center;
+       flex-wrap: wrap;
+       font-size: 30px;
+       width: 100%;
+       min-height: 200px;
+       background-color: #ffa4d2;
+       
+     }
+  
+     .Footercards
+     {
+       width: 30%;
+       min-height: 100px;
+       background-color: cornflowerblue;
+       margin: 10px 10px;
+       padding: 10px;
+     }
+   }
 
   @media screen and (min-width: 871px) and (max-width: 1100px)
   {
+    .navigation .menu 
+    {
+      display: block !important;
+      height: auto !important;
+    }
+
     .navigation .menu li a 
     {
       font-size: 20px;
     }
+
+    .FooterContainer
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      justify-items: center;
+      flex-wrap: wrap;
+      font-size: 30px;
+      width: 100%;
+      min-height: 200px;
+      background-color: #ffa4d2;
+    }
+
+    .Footercards
+    {
+      width: 30%;
+      min-height: 100px;
+      background-color: cornflowerblue;
+      margin: 10px 10px;
+      padding: 10px;
+    }
+
   }
 
   /*Her skifter vi struktur i forhold til skærmstørrelse vis den er mindre end 870px bred.*/
@@ -166,32 +220,50 @@
     {
         font-size: 30px;
     }
+    /*----- Slut på navigation bar --------------------------------------------------- slut på navigation bar-------*/
+
+    /*----- slut  af om os delen ------ */
+    .FooterContainer
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      justify-items: center;
+      flex-wrap: wrap;
+      font-size: 30px;
+      width: 100%;
+      min-height: 200px;
+      background-color: #ffa4d2;
+    }
+
+    .Footercards
+    {
+      width: 100%;
+      min-height: 100px;
+      background-color: cornflowerblue;
+      margin: 10px 10px;
+      padding: 10px;
+    }
+    .Footercards h2
+    {
+      text-align: center;
+
+    }
+
   }
   
-/*----- Slut på navigation bar --------------------------------------------------- slut på navigation bar-------*/
 
 /**/
 
-.VelkommenSection1
+
+
+.FooterSection
 {
   width: 100%;
-  height: 90vh;
-  background-color: aquamarine;
+  min-height: 200px;
+  background-color: #ffa4d2;
 }
 
-.VelkommenSection2
-{
-  width: 100%;
-  height: 90vh;
-  background-color: rgb(255, 127, 127);
-}
-
-.VelkommenSection3
-{
-  width: 100%;
-  height: 90vh;
-  background-color: rgb(255, 253, 127);
-}
 
 
 
