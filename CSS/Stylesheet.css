@@ -30,6 +30,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 2;
   }
   .navigation > .container 
   {
@@ -44,7 +45,7 @@
   {
     position: absolute;
     left: 50%;
-    top: 5px;
+    top: 10px;
     transform: translateX(-50%);
   }
   .navigation .navbar .logo-toggle-container a 
@@ -63,7 +64,7 @@
   .navigation .menu li 
   {
     display: inline-block;
-    padding: 43px 10px;
+    padding: 24px 10px;
   }
   .navigation .menu li a 
   {
