@@ -53,6 +53,7 @@
       max-height: 350px;
       background-color: cornflowerblue;
       padding: 10px;
+      position: relative;
   }
   .BestilInfoBoxRight
   {
@@ -94,6 +95,7 @@
       max-height: 350px;
       background-color: cornflowerblue;
       padding: 10px;
+      position: relative;
   }
   .EventInfoBoxRight
   {
@@ -104,5 +106,58 @@
       font-size: 30px;
       text-align: center;
   }
+
+  .EventsButton
+  {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 150px;
+      height: 60px;
+  }
+  .EventsButton button
+  {
+      border-radius: 10px;
+      width: 100px;
+      height: 40px;
+      background-color: rgb(255, 255, 255);
+      color: rgb(22, 22, 22);
+      border: 0 solid white;
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 870px) 
+{
+    .EventBilledeLeft
+  {
+      display: none;
+  }
+  .BestilBilledeLeft
+  {
+      display: none;
+  }
+
+  .EventInfoBoxRight
+  {
+      width: 100%;
+      min-height: 200px;
+      background-color: cornflowerblue;
+      padding: 10px 10px 40px 10px;
+  }
+  .BestilInfoBoxRight
+  {
+      width: 100%;
+      min-height: 200px;
+      background-color: cornflowerblue;
+      padding: 10px 10px 40px 10px;
+  }
+
+
+}
+
 
 

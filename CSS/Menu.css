@@ -16,6 +16,12 @@ body
     margin: auto auto;
     text-align: center;
 }
+.MenuBoardContainerTest
+{
+    width: 100%;
+    min-height: 200px;
+    color: white;
+}
 .MenuBoardContainer
 {
     width: 100%;
@@ -26,7 +32,7 @@ body
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    position: relative;
+    /*position: relative;*/
     padding-bottom: 30px;
 }
 .MenuKortMenuTekst
@@ -53,7 +59,7 @@ body
     height: auto;
 }
 
-.MenuReadMore
+/*.MenuReadMore
 {
     position: absolute;
     text-align: center;
@@ -63,6 +69,7 @@ body
     color: white;
     font-size: 30px;
 }
+*/
 
 .DessertTyperContainer 
 {

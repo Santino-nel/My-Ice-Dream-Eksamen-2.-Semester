@@ -292,7 +292,7 @@
 .VelkommenSection2
 {
   width: 100%;
-  min-height: 90vh;
+  min-height: 300px;
   background-color: rgb(255, 127, 127);
 }
 
@@ -310,7 +310,7 @@
 .VelkommenSection3
 {
   width: 100%;
-  min-height: 90vh;
+  min-height: 200px;
   background-color: rgb(255, 253, 127);
 }
 
