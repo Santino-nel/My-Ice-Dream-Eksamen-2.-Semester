@@ -71,6 +71,8 @@ body
 }
 */
 
+
+
 .DessertTyperContainer 
 {
     width: 100%;
@@ -92,13 +94,115 @@ body
       background-color: #ffa4d2;
 }
 
-.DessertTyperCard
+.DessertTyperCard1
+{
+      width: 30%;
+      min-height: 400px;
+      background-image: url(../img/IsClassic.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 10px 10px;
+}
+
+/*------------Først Vores Dessert Card hover stuff --------------------------------------------------*/
+.DessertTyperCard1:hover .MenuCardsText
+{
+    display: block;
+    background-color: rgb(124, 173, 206, 0.8);
+}
+.DessertCardArabisk .MenuCardsText
+{
+    display:none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    min-height: 100%;
+}
+.DessertTyperCard1 h4
+{
+    text-align: center;
+    color: white;  
+}
+.DessertTyperCard1:hover h4
+{
+    text-align: center;
+    color: white;
+    background-color: rgb(124, 173, 206, 0.8);
+}
+
+/*------ Andet Card ----------------------------------------------------------------------*/
+.DessertTyperCard2
 {
       width: 30%;
       min-height: 300px;
-      background-color: cornflowerblue;
+      background-image: url(../img/IsRoll.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
       margin: 10px 10px;
-      padding: 10px;
+}
+
+/*----------Andet Vores Dessert Card hover stuff----------------------------------------*/
+.DessertTyperCard2:hover .MenuCardsText
+{
+    display: block;
+    background-color: rgb(124, 173, 206, 0.8);
+}
+.DessertCardKlassiskIs .MenuCardsText
+{
+    display:none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    min-height: 100%;
+}
+.DessertTyperCard2 h4
+{
+    text-align: center;
+    color: white;  
+}
+.DessertTyperCard2:hover h4
+{
+    text-align: center;
+    color: white;
+    background-color: rgb(124, 173, 206, 0.8);
+}
+/*------ Treje Card ----------------------------------------------------------------------*/
+.DessertTyperCard3
+{
+      width: 30%;
+      min-height: 300px;
+      background-image: url(../img/ArabiskDessert.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      margin: 10px 10px;
+}
+/*----------Treje Vores Dessert Card hover stuff----------------------------------------*/
+.DessertTyperCard3:hover .MenuCardsText
+{
+    display: block;
+    background-color: rgb(124, 173, 206, 0.4);
+}
+.DessertCardIsRolls .MenuCardsText
+{
+    display:none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    min-height: 100%;
+}
+.DessertTyperCard3 h4
+{
+    text-align: center;
+    color: white;  
+}
+.DessertTyperCard3:hover h4
+{
+    text-align: center;
+    color: white;
+    background-color: rgb(124, 173, 206, 0.4);
 }
 
 .VeganskInfoContainer
