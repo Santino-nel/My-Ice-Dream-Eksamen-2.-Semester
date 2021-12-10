@@ -39,12 +39,20 @@ body
 {
     width: 300px;
     height: auto;
-    margin: auto auto;
+    margin: 30px auto auto;
 }
 .MenuKortMenuTekst img 
 {
     max-width: 100%;
     height: auto;
+}
+.StorMenuTekstKort
+    {
+        display:block;
+    }
+.LilleMenuTekstKort
+{
+    display:none;
 }
 
 .MenuTekstHolder
@@ -78,7 +86,7 @@ body
     width: 100%;
     min-height: 50%;
     margin: auto auto;
-    background-color: rgb(124, 173, 206);
+    background-color: rgb(255, 255, 255);
 }
 
 .DessertTyperCardContainer
@@ -91,7 +99,7 @@ body
       font-size: 30px;
       width: 100%;
       min-height: 200px;
-      background-color: #ffa4d2;
+      background-color: #ffffff;
 }
 
 .DessertTyperCard1
@@ -183,7 +191,7 @@ body
 .DessertTyperCard3:hover .MenuCardsText
 {
     display: block;
-    background-color: rgb(124, 173, 206, 0.4);
+    background-color: rgb(124, 173, 206, 0.8);
 }
 .DessertCardIsRolls .MenuCardsText
 {
@@ -202,7 +210,7 @@ body
 {
     text-align: center;
     color: white;
-    background-color: rgb(124, 173, 206, 0.4);
+    background-color: rgb(124, 173, 206, 0.8);
 }
 
 .VeganskInfoContainer
@@ -210,23 +218,58 @@ body
     width: 100%;
     min-height: 100px;
     margin: auto auto;
-    background-color: rgb(245, 140, 121);
-    padding-bottom: 10px;
+    background-color: rgb(0, 66, 102);
+    color: white;
 }
 
 .VeganskInfo
 {
     width: 50%;
-    min-height: 100px;
-    background-color: green;
+    min-height: 400px;
+    background-color: rgb(237, 242, 251);
+    background-image:  url(../img/Guff.png);
+    background-size: 25%;
+    color: rgb(0, 66, 102);
+    background-repeat: no-repeat;
     margin: auto auto;
     border-radius: 10px;
-    padding: 10px;
+    margin-bottom: 20px;
+}
+.VeganInfoText
+{
+    padding: 20px;
+    width:70%;
+    height:auto;
+    float:right;
 }
 
 
 @media screen and (max-width: 870px) 
 {
+    .MenuBoardContainer
+{
+    width: 100%;
+    min-height: 40vh;
+    padding-top: 20px;
+    color: white;
+    background-image: none;
+    /*position: relative;*/
+    padding-bottom: 30px;
+    background-color: rgb(0, 66, 102);
+}
+    .StorMenuTekstKort
+    {
+        display:none;
+    }
+    .LilleMenuTekstKort
+    {
+        display:block;
+        width: 100%;
+        height: auto;
+        margin: 50px 0px;
+        border:  5px solid white;
+        border-radius: 40px;
+    }
     .DessertTyperCardContainer
     {
         display: flex;
@@ -237,7 +280,7 @@ body
         font-size: 30px;
         width: 100%;
         min-height: 200px;
-        background-color: #ffa4d2;
+        background-color: #ffffff;
     }
 
     .DessertTyperCard
@@ -253,16 +296,65 @@ body
         width: 100%;
         min-height: 100px;
         margin: auto auto;
-        background-color: rgb(245, 140, 121);
-        padding-bottom: 10px;
+        background-color: rgb(0, 66, 102);
+        color: white;
     }
+
     .VeganskInfo
     {
-        width: 90%;
-        min-height: 100px;
-        background-color: green;
+        width: 50%;
+        min-height: 400px;
+        background-color: rgb(237, 242, 251);
+        background-image:  url(../img/Guff.png);
+        background-size: 25%;
+        color: rgb(0, 66, 102);
+        background-repeat: no-repeat;
         margin: auto auto;
         border-radius: 10px;
-        padding: 10px;
+        margin-bottom: 20px;
     }
+    .VeganInfoText
+    {
+        padding: 20px;
+        width:70%;
+        height:auto;
+        float:right;
+    }
+
+
+    /*Cards mobil størrelse*/
+    .DessertTyperCard1
+    {
+          width: 100%;
+          min-height: 300px;
+          background-image: url(../img/ArabiskDessert.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+          margin: 10px 10px;
+    }
+    .DessertTyperCard2
+{
+      width: 100%;
+      min-height: 300px;
+      background-image: url(../img/IsClassic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      margin: 10px 10px;
+}
+.DessertTyperCard3
+{
+      width: 100%;
+      min-height: 300px;
+      background-image: url(../img/IsRoll.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      margin: 10px 10px;
+}
+
+
+
+
 }

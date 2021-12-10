@@ -17,7 +17,6 @@
 {
     width: 100%;
     height: 100%;
-    background-color:azure;
     margin: auto;
 }
 
@@ -26,10 +25,6 @@
 /*Her sætter vi en gradient baggrund ind for at lave den fede baggrund som så også kan skaleres til en hvis grad.*/
   .navigation 
   {
-    background-image: url(../img/BGGradient.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     z-index: 2;
   }
   .navigation > .container 
@@ -116,10 +111,14 @@
      {
        width: 30%;
        min-height: 100px;
-       background-color: cornflowerblue;
        margin: 10px 10px;
        padding: 10px;
      }
+     .Footercards h2
+    {
+      text-align: center;
+      color: #fff;
+    }
    }
 
   @media screen and (min-width: 871px) and (max-width: 1100px)
@@ -152,9 +151,13 @@
     {
       width: 30%;
       min-height: 100px;
-      background-color: cornflowerblue;
       margin: 10px 10px;
       padding: 10px;
+    }
+    .Footercards h2
+    {
+      text-align: center;
+      color: #fff;
     }
 
   }
@@ -241,14 +244,13 @@
     {
       width: 100%;
       min-height: 100px;
-      background-color: cornflowerblue;
       margin: 10px 10px;
       padding: 10px;
     }
     .Footercards h2
     {
       text-align: center;
-
+      color: #fff;
     }
 
   }

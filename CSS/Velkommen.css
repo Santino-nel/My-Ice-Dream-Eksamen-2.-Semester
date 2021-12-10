@@ -16,7 +16,7 @@
     {
       width: 45%;
       height: 400px;
-      background-image: url(/img/Maher.JPG);
+      background-image: url(/img/maher123.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -25,6 +25,10 @@
     {
       width: 45%;
       height: 400px;
+      background-image: url(/img/blaainfobox.png);
+      background-size: 60%;
+      background-repeat: no-repeat;
+      background-position: center;
     }
     /*----- slut  af om os delen ------ */
 
@@ -111,7 +115,7 @@
     {
       width: 40%;
       height: 400px;
-      background-image: url(/img/Maher.JPG);
+      background-image: url(/img/maher123.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -206,7 +210,7 @@
     {
       width: 90%;
       height: 300px;
-      background-image: url(/img/Maher.JPG);
+      background-image: url(/img/maher123.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -288,13 +292,30 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.SplitterWhiteTop
+{
+  position: relative;
+}
+
+.SplitterTopWhiteImage
+{
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+}
 
 .VelkommenSection2
 {
   width: 100%;
-  min-height: 300px;
-  background-color: rgb(255, 127, 127);
+  min-height: 400px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(/img/krymmeldreng.png);
+  background-size: 100%;
 }
+
+
+
+
 
 .HeaderText
 {
@@ -307,18 +328,12 @@
 }
 
 
-.VelkommenSection3
-{
-  width: 100%;
-  min-height: 200px;
-  background-color: rgb(255, 253, 127);
-}
 
 .VelkommenSection4
 {
     width: 100%;
     min-height: 300px;
-    background-color: rgb(144, 202, 139);
+    background-color: rgb(66, 116, 190);
 }
 
 
