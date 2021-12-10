@@ -1,0 +1,99 @@
+.menukort {
+    padding-top: 5%;
+
+}
+.menukortimg {
+width: 100%;
+}
+
+.dessertinfo {
+    background-image: url(/img/backgrounddessert.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 15%;
+    text-align: center;
+}
+
+.headerdessert {
+    color: #004266;;
+    font-size: 30px;
+}
+
+.tekstdessert {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.infoboxbox {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: px;
+    justify-content: space-around;
+    color: #004266;;
+
+}
+
+.infobox1 {
+    width: 300px;
+
+}
+
+.infobox2 {
+    width: 300px;
+}
+
+.infobox3 {
+    width: 300px;
+}
+
+
+
+.infounderheader {
+    font-size: 24px;
+}
+
+.meltingwhite1 {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+
+.veganersiden {
+    text-align: center;
+    color: white;
+    background-color: #004266;
+    padding-top: 20%;
+    position: relative;
+    padding-bottom: 800px;
+}
+
+.veganerheaderen{
+    font-size: 30px;
+}
+
+.veganerkassekassen{
+    display: flex;
+    width: 80%;
+    margin: auto auto;
+}
+
+.veganerkassen{
+    background-image: url(/img/Veganbox.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.veganertekst {
+    font-size: 40px;
+}
+
+.veganer {
+    width: 50%;
+}

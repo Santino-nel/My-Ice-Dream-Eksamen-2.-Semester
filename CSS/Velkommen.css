@@ -1,0 +1,195 @@
+/*-- overall styling af baggrund og gentagne elementer --*/
+
+
+.omossektion {
+    background-color: white;
+    
+    background-image: url(/img/krymmeldreng.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: c;
+  }
+  
+  .adjustingbox {
+    width: 80%;
+    margin: 5% auto 5% auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .butiksejer {
+    max-width: 40%;
+    float: left;
+  }
+  
+  .butiksejer .maherfront {
+    max-width: 100%;
+  }
+  
+  .infoboxomos {
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/blaainfobox.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    flex-grow: 1;
+    text-align: center;
+    
+  }
+  
+  .overskriftomos {
+   font-size: 30px;
+   color: #004266;
+   margin-top: -1%;
+  }
+  
+  .tekstomos {
+   color: white;
+   font-size: xx-large;
+   margin: auto auto;
+   width: 40%;
+   padding-top: 10%;
+  }
+  
+  .nyhedsbrev {
+    text-align: center;
+    margin: auto auto;
+    align-items: center;
+    color: #004266;
+    position: relative;
+    background-color: #EDF2FB;
+  }
+  
+  
+  .meltingwhite2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+  }
+  
+  .emailogknap {
+    width: 50%;
+    margin: auto auto;
+  }
+  
+  .foelgos{
+    font-size: 30px;
+    padding-top: 25%;
+  }
+  
+  .nyhedsintro {
+    font-size: 24px;
+    width: 50%;
+    margin: auto auto;
+  }
+  
+  .input {
+    width: 100%;
+    padding-top: 2%;
+    border-color: #004266;
+    margin-top: 0.7%;
+  }
+  
+  .knap {
+  float: right;
+  margin-top: 0.7%;
+  }
+  
+  .emailknap {
+    border-radius: 50px;
+    background-color: #F0BCED;
+    padding: 10px 50px;
+  }
+  
+  .meltinggrey {
+    bottom: 0;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+    justify-content: space-around;
+    background-color: #EDF2FB;
+    width: 60%;
+    position: inherit;
+  }
+  
+  @media screen and (min-width: 1101px) 
+     {
+  
+      /*-- smelteeffekt i "slowmovideosession" box til og med "meltingwhite1" --*/
+     
+      .slowmovideosession {
+        position: relative;
+      }
+  
+      .butiksfront {
+        max-width: 100%;
+      } 
+  
+  
+      .meltingwhite1 {
+        position: absolute;
+        bottom: 0;
+        max-width: 100%;
+      }
+  
+  
+  
+  
+  
+     }
+  
+  
+  @media screen and (min-width: 871px) and (max-width: 1100px)
+     {
+  
+  
+    /*-- smelteeffekt i "slowmovideosession" box til og med "meltingwhite1"--*/
+      .slowmovideosession {
+        position: relative;
+      }
+  
+      .butiksfront {
+        max-width: 100%;
+      } 
+     
+      .meltingwhite1 {
+        position: absolute;
+        bottom: 0;
+        max-width: 100%;
+      }
+  
+     }
+        
+  @media screen and (max-width: 870px) 
+  {
+  
+  
+      /*-- smelteeffekt i "slowmovideosession" box til og med "meltingwhite1" --*/
+    .slowmovideosession {
+      position: relative;
+    }
+  
+  .butiksfront {
+    max-width: 100%;
+  } 
+    
+  .meltingwhite1 {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+  }
+  
+  
+  /* Om os sektionen med billede af butiksejer og infobox */
+  
+  
+      
+  }
