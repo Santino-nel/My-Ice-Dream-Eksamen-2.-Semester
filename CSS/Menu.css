@@ -68,7 +68,8 @@ width: 100%;
     background-color: #004266;
     padding-top: 20%;
     position: relative;
-    padding-bottom: 800px;
+    
+    
 }
 
 .veganerheaderen{
@@ -77,20 +78,26 @@ width: 100%;
 
 .veganerkassekassen{
     display: flex;
-    width: 80%;
-    margin: auto auto;
+    width: 100%;
+    height: 1000px;
+    margin-left: 2%;
+
 }
 
 .veganerkassen{
     background-image: url(/img/Veganbox.png);
-    background-position: center;
+   background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    text-align: center;
+    background-size: 70%;
+   
+    
 }
 
 .veganertekst {
     font-size: 40px;
+    width: 50%;
+    color: #004266;
+    margin-top: 12%;
+    margin-left: 22%;
 }
 
