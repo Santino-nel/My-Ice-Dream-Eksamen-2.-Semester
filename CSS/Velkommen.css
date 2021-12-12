@@ -1,5 +1,8 @@
 /*-- overall styling af baggrund og gentagne elementer --*/
 
+.butiksfront {
+  width: 100%;
+}
 
 .omossektion {
     background-color: white;
@@ -87,9 +90,10 @@
   
   .input {
     width: 100%;
-    padding-top: 2%;
+    height: 40px;
     border-color: #004266;
     margin-top: 0.7%;
+    font-size: 30px;
   }
   
   .knap {
@@ -101,6 +105,7 @@
     border-radius: 50px;
     background-color: #F0BCED;
     padding: 10px 50px;
+    font-size: 24px;
   }
   
   .meltinggrey {
@@ -113,11 +118,16 @@
   .socialmedia {
     display: flex;
     flex-direction: row;
-    margin: auto auto;
+    margin-top: 100px;
+    margin-left: 20%;
     justify-content: space-around;
     background-color: #EDF2FB;
     width: 60%;
     position: inherit;
+  }
+
+  .clearboth {
+    clear: both;
   }
   
   @media screen and (min-width: 1101px) 
@@ -129,9 +139,7 @@
         position: relative;
       }
   
-      .butiksfront {
-        max-width: 100%;
-      } 
+      
   
   
       .meltingwhite1 {
@@ -156,9 +164,7 @@
         position: relative;
       }
   
-      .butiksfront {
-        max-width: 100%;
-      } 
+     
      
       .meltingwhite1 {
         position: absolute;
@@ -176,10 +182,7 @@
     .slowmovideosession {
       position: relative;
     }
-  
-  .butiksfront {
-    max-width: 100%;
-  } 
+
     
   .meltingwhite1 {
     position: absolute;

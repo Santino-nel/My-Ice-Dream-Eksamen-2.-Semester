@@ -28,27 +28,38 @@ width: 100%;
 .infoboxbox {
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
-    padding-bottom: px;
+    padding: 50px;
     justify-content: space-around;
     color: #004266;;
+
 
 }
 
 .infobox1 {
-    width: 300px;
+    width: 400px;
 
 }
 
 .infobox2 {
-    width: 300px;
+    width: 400px;
 }
 
 .infobox3 {
-    width: 300px;
+    width: 400px;
 }
 
 
+.arabisk {
+    width: 100%;
+}
+
+.bubblywaffly{
+    width: 100%;
+}
+
+.isrulleman {
+    width: 100%;
+}
 
 .infounderheader {
     font-size: 24px;
