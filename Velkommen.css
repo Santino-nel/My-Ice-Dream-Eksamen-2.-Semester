@@ -1,0 +1,201 @@
+/*-- overall styling af baggrund og gentagne elementer --*/
+
+.videofront {
+  width: 100%;
+}
+
+.omossektion {
+    background-color: white;
+    padding-top: 3%;
+    background-image: url(/img/krymmeldreng.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 3%;
+  
+  }
+  
+  .adjustingbox {
+    width: 80%;
+    margin: 5% 0.5% 5% auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .butiksejer {
+    max-width: 30%;
+    float: left;
+  }
+  
+  .butiksejer .maherfront {
+    max-width: 100%;
+  }
+  
+  .infoboxomos {
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/blaainfobox.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    flex-grow: 1;
+    text-align: center;
+    height: 670px;
+    
+  }
+  
+  .overskriftomos {
+   font-size: 30px;
+   color: #004266;
+  }
+  
+  .tekstomos {
+   color: white;
+   font-size: 24px;
+   margin: auto auto;
+   width: 30%;
+   padding-top: 4%;
+  }
+  
+  .nyhedsbrev {
+    text-align: center;
+    margin: auto auto;
+    align-items: center;
+    color: #004266;
+    position: relative;
+    background-color: #EDF2FB;
+  }
+  
+  
+  .meltingwhite2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+  }
+  
+  .emailogknap {
+    width: 50%;
+    margin: auto auto;
+  }
+  
+  .foelgos{
+    font-size: 30px;
+    padding-top: 25%;
+  }
+  
+  .nyhedsintro {
+    font-size: 20px;
+    width: 40%;
+    margin: auto auto;
+  }
+  
+  .input {
+    width: 80%;
+    height: 30px;
+    border-color: #004266;
+    margin-top: 0.7%;
+    font-size: 24px;
+  }
+  
+  .knap {
+  float: right;
+  margin-top: 0.7%;
+  margin-right: 10%;
+  }
+  
+  .emailknap {
+    border-radius: 50px;
+    background-color: #F0BCED;
+    color: #004266;
+    padding: 5px 30px;
+    font-size: 20px;
+  }
+  
+  .meltinggrey {
+    bottom: 0;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 25%;
+    justify-content: space-around;
+    background-color: #EDF2FB;
+    width: 50%;
+    position: inherit;
+  }
+
+  .socialmediaicons {
+    width: 80%;
+  }
+
+  .clearboth {
+    clear: both;
+  }
+  
+  @media screen and (min-width: 1101px) 
+     {
+  
+      /*-- smelteeffekt i "slowmovideosession" box til og med "meltingwhite1" --*/
+     
+      .slowmovideosession {
+        position: relative;
+      }
+  
+      
+  
+  
+      .meltingwhite1 {
+        position: absolute;
+        bottom: 0;
+        max-width: 100%;
+      }
+  
+  
+  
+  
+  
+     }
+  
+  
+  @media screen and (min-width: 871px) and (max-width: 1100px)
+     {
+  
+  
+    /*-- smelteeffekt i "slowmovideosession" box til og med "meltingwhite1"--*/
+      .slowmovideosession {
+        position: relative;
+      }
+  
+     
+     
+      .meltingwhite1 {
+        position: absolute;
+        bottom: 0;
+        max-width: 100%;
+      }
+  
+     }
+        
+  @media screen and (max-width: 870px) 
+  {
+  
+  
+      /*-- smelteeffekt i "slowmovideosession" box til og med "meltingwhite1" --*/
+    .slowmovideosession {
+      position: relative;
+    }
+
+    
+  .meltingwhite1 {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+  }
+  
+      
+  }

@@ -1,0 +1,121 @@
+body {
+    background-color: #EDF2FB;
+    color: #004266;
+}
+
+
+.eventbox {
+ margin: auto auto;
+ width: 80%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ padding-top: 5%;
+}
+
+.animationbox {
+    width: 25%;
+}
+
+.kageanimation {
+    width: 100%;
+    margin-top: 25%;
+}
+
+.infobox {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.headerboxinfo {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.maintextinfo{
+    border: solid 3px #004266;
+    height: 250px;
+    font-size: 24px;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 2%
+;
+}
+
+.bestilknap {
+    float: right;
+    margin-right: 2%;
+    padding: 10px 50px 10px 50px;
+    font-size: 24px;
+    background-color: #F0BCED;
+    border-radius: 50px;
+    color: #004266;
+}
+
+.fireryttere {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.hvidkageimg {
+    width: 74%;
+}
+
+
+.lyseroedkageimg {
+    width: 74%;
+}
+
+
+.peachkageimg {
+    width: 74%;
+}
+
+
+.roedkageimg {
+    width: 74%;
+}
+
+
+.ismand {
+    width: 100%;
+    margin-top: 15%;
+}
+  @media screen and (max-width: 870px) 
+{
+    .EventBilledeLeft
+  {
+      display: none;
+  }
+  .BestilBilledeLeft
+  {
+      display: none;
+  }
+
+  .EventInfoBoxRight
+  {
+      width: 100%;
+      min-height: 200px;
+      background-color: cornflowerblue;
+      padding: 10px 10px 40px 10px;
+  }
+  .BestilInfoBoxRight
+  {
+      width: 100%;
+      min-height: 200px;
+      background-color: cornflowerblue;
+      padding: 10px 10px 40px 10px;
+  }
+
+
+}
+
+
+

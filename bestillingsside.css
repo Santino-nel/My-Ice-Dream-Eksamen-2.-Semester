@@ -1,0 +1,15 @@
+body {
+    background-color: #EDF2FB;
+    color: #004266;
+}
+
+.oplysningerbox {
+    width: 40%;
+    text-align: center;
+    margin: auto auto;
+}
+
+.oplysningerheader {
+    font-size: 30px;
+}
+

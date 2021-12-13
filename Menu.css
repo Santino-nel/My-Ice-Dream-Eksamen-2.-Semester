@@ -1,0 +1,129 @@
+.menukort {
+    padding-top: 5%;
+
+}
+.menukortimg {
+width: 100%;
+}
+
+.dessertinfo {
+    background-image: url(/img/backgrounddessert.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 15%;
+    text-align: center;
+    height: 1187px;
+}
+
+.headerdessert {
+    color: #004266;;
+    font-size: 30px;
+}
+
+.tekstdessert {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.infoboxbox {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-around;
+    color: #004266;
+
+
+}
+
+.infobox1 {
+    width: 400px;
+
+}
+
+.infobox2 {
+    width: 400px;
+}
+
+.infobox3 {
+    width: 400px;
+}
+
+.arabiskdessert {
+    max-width: 320px;
+    margin-left: 10%;
+}
+
+.isruller {
+    max-width: 320px;
+    margin-left: 10%;
+}
+
+.bubblewaffle {
+    max-width: 320px;
+    margin-left: 10%;
+}
+
+.arabisk {
+    width: 80%;
+}
+
+.bubblywaffly{
+    width: 80%;
+}
+
+.isrulleman {
+    width: 80%;
+}
+
+.infounderheader {
+    font-size: 24px;
+}
+
+.meltingwhite1 {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+
+.veganersiden {
+    text-align: center;
+    color: white;
+    background-color: #004266;
+    padding-top: 20%;
+    position: relative;
+    
+    
+}
+
+.veganerheaderen{
+    font-size: 30px;
+}
+
+.veganerkassekassen{
+    display: flex;
+    width: 100%;
+    height: 800px;
+
+}
+
+.veganerkassen{
+    background-image: url(/img/Veganbox.png);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    margin-left: 4%;
+   
+    
+}
+
+.veganertekst {
+    font-size: 30px;
+    width: 50%;
+    color: #004266;
+    margin-top: 9%;
+    margin-left: 23%;
+}
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bestilling & Events</title>
+        <link rel="shortcut icon" type="img/png" href="/img/logo.png">
+        <link rel="stylesheet" href="/CSS/Stylesheet.css" type="text/css">
+        <link rel="stylesheet" href="/CSS/bestillingsside.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <div class="ContentContainer">  
+            <!-- Her starter Navigation Menu/Bar. -->
+            <div class="navigation">
+                <div class="container">
+                <div class="navbar">
+                    <div class="logo-toggle-container">
+                        <a href="index.html">
+                        <img src="/img/LOGONATION.png" alt="" />
+                        </a>
+                        <span class="toggle-box">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </span>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="index.html">Velkommen</a></li>
+                        <li><a href="Menu.html">Menu</a></li>
+
+                        <li><a href="BestillingEvents.html">Bestilling & Events</a></li>
+                        <li><a href="Kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <!-- Her slutter Navigation Menu/Bar.-------->
+
+            <h1>Ordrebekræftelse</h1>
+
+            <div id="resultBox" class="oplysninger">
+            <h2>Dine oplysninger</h2>
+            
+        
+                <div class="box">
+                  <dl>
+                    <dt>Navn</dt>
+                    <dd class="name"></dd>
+                    <dt>Adresse</dt>
+                    <dd class="adresse"></dd>
+                    <dt>Mobil</dt>
+                    <dd class="mobil"></dd>
+                    <dt></dt>
+                    <dd class="invention"></dd>
+                  </dl>
+                </div>
+        
+              </div>
+
+              <div id="resultBox2" class="bestilling">
+                    <div class="box">
+                      <dl>
+                        <dt>Antal tid bestilt</dt>
+                        <dd class="tid"></dd>
+                        <dt>Adresse</dt>
+                        <dd class="adresse"></dd>
+                        <dt>Mobil</dt>
+                        <dd class="mobil"></dd>
+                        <dt></dt>
+                        <dd class="invention"></dd>
+                      </dl>
+                    </div>
+              </div>
+
+            <footer class="FooterSection">
+
+
+            
+                <div class="FooterContainer">
+
+                    <div class="Footercard">
+                        <h2>Info@myicedream.dk</h2>
+                        <h2>+45 31887813</h2>
+                        <h2>Frederiks Allé 102 <br> 8000, Aarhus C</h2>
+                    </div>
+
+                   
+                </div>
+                <img class="meltinggrey" src="/img/meltinggrey.png" alt="smelteeffekt">
+        </footer>
+      
+
+        </div>
+
+
+
+
+
+
+        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            const resultBox = document.getElementById("resultBox")
+            const resultBox2 = document.getElementById("resultBox2")
+
+      const url = new URL(window.location.href);
+
+      
+      resultBox.querySelector(".name").innerText = url.searchParams.get("name");
+      resultBox.querySelector(".adresse").innerText = url.searchParams.get("adresse");
+      resultBox.querySelector(".mobil").innerText = url.searchParams.getAll("mobil");
+      resultBox2.querySelector(".tid").innerText = url.searchParams.get("tid");
+      resultBox2.querySelector(".tid").innerText = url.searchParams.get("tid");
+
+    
+
+
+        </script>
+
+
+    </body>
+</html>
