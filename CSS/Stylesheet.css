@@ -20,10 +20,6 @@ body
 /*Her sætter vi en gradient baggrund ind for at lave den fede baggrund som så også kan skaleres til en hvis grad.*/
 .navigation 
 {
-  background-image: url(../img/BGGradient.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   z-index: 2;
 }
 .navigation > .container 
@@ -60,6 +56,7 @@ body
   display: inline-block;
   padding: 24px 10px;
 }
+
 .navigation .menu li a 
 {
   display: block;
@@ -67,9 +64,11 @@ body
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #fff;
+  color: #004266;
   font-size: 30px;
 }
+
+
 /*Her siger vi at de to første li'er som er i .menu til at float left da de er alle normalt sat til højre
 og på den måde for vi delt Navigation baren til at være splittet op som ønsket.*/
 .navigation .menu li:nth-child(1),
@@ -80,7 +79,7 @@ og på den måde for vi delt Navigation baren til at være splittet op som ønsk
 /*Navbar hover effekt */
 .navigation .menu li:hover a 
 {
-  color: rgb(27, 224, 250);
+  border-bottom: #004266 solid 3px;
 }
 
 
@@ -104,6 +103,7 @@ og på den måde for vi delt Navigation baren til at være splittet op som ønsk
   position: absolute;
   top: 0;
   left: 0;
+  max-width: 100%;
 }
 
  /*Her skifter vi struktur i forhold til skærmstørrelse vis der er minimum 1024px bred.*/
@@ -114,7 +114,6 @@ og på den måde for vi delt Navigation baren til at være splittet op som ønsk
      display: block !important;
      height: auto !important;
    }
-
    
  }
 
@@ -164,7 +163,7 @@ og på den måde for vi delt Navigation baren til at være splittet op som ønsk
     max-width: 100%;
     margin: auto;
     height: 8px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(114, 49, 49);
     margin-bottom: 6px;
     border-radius: 10px;
   }
@@ -196,7 +195,7 @@ og på den måde for vi delt Navigation baren til at være splittet op som ønsk
   }
   /*----- Slut på navigation bar --------------------------------------------------- slut på navigation bar-------*/
 
-  /*----- slut  af om os delen ------ */
-  
+ 
+}
 
 }

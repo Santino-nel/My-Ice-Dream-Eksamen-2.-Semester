@@ -41,6 +41,7 @@ body {
     padding-top: 50px;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 2%
 ;
 }
 
@@ -51,34 +52,41 @@ body {
     font-size: 24px;
     background-color: #F0BCED;
     border-radius: 50px;
+    color: #004266;
 }
 
 .fireryttere {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: auto auto;
+    margin-left: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
 .hvidkageimg {
-    width: 70%;
+    width: 74%;
 }
 
 
 .lyseroedkageimg {
-    width: 70%;
+    width: 74%;
 }
 
 
 .peachkageimg {
-    width: 70%;
+    width: 74%;
 }
 
 
 .roedkageimg {
-    width: 70%;
+    width: 74%;
+}
+
+
+.ismand {
+    width: 100%;
+    margin-top: 15%;
 }
   @media screen and (max-width: 870px) 
 {

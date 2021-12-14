@@ -1,0 +1,58 @@
+body {
+    background-color: #EDF2FB;
+    color: #004266;
+}
+
+.oplysningerbox {
+    width: 40%;
+    text-align: center;
+    margin: auto auto;
+    padding-bottom: 5%;
+}
+
+.oplysningerheader {
+    font-size: 30px;
+}
+
+.oplysningerinput {
+   font-size: 30px;
+}
+
+.valueboxsize {
+    font-size: 30px;
+    width: 80%;
+    background-color: #EDF2FB;
+    color: #004266;
+    margin-bottom: 5%;
+    padding: 5px 10px 5px 10px;
+}
+
+.datobox {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.dato {
+    font-size: 30px;
+}
+
+input[type='radio'] { 
+    transform: scale(2); 
+    margin-left: 5%;
+}
+
+.buttonchoice {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.bestil {
+    padding: 10px 50px 10px 50px;
+    font-size: 24px;
+    background-color: #F0BCED;
+    border-radius: 50px;
+    color: #004266;
+}

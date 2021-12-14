@@ -1,0 +1,39 @@
+body {
+    background-color: #EDF2FB;
+    color: #004266;
+}
+
+.oplysningerarea {
+    padding-top: 125px;
+    padding-bottom: 40px;
+}
+
+.oplysningerheader {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.ordrebekraeftelsebox {
+    width: 70%;
+    text-align: center;
+    margin-left: 17%;
+}
+
+.ordrebekraeftelse {
+    background-image: url(/img/icecreambackground.png);
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.navneplacement {
+    float: left;
+}
+
+.svarplacement {
+    width: 500px;
+}

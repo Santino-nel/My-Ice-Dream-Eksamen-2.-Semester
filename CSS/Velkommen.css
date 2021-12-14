@@ -1,27 +1,31 @@
 /*-- overall styling af baggrund og gentagne elementer --*/
-
-.butiksfront {
+.videofront {
   width: 100%;
+}
+
+.slowmovideosession {
+  display: block;
 }
 
 .omossektion {
     background-color: white;
-    
+    padding-top: 3%;
     background-image: url(/img/krymmeldreng.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: c;
+    padding-bottom: 3%;
+  
   }
   
   .adjustingbox {
     width: 80%;
-    margin: 5% auto 5% auto;
+    margin: 5% 0.5% 5% auto;
     display: flex;
     flex-direction: row;
   }
   
   .butiksejer {
-    max-width: 40%;
+    max-width: 30%;
     float: left;
   }
   
@@ -34,25 +38,25 @@
     align-items: center;
     background-image: url(/img/blaainfobox.png);
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 50%;
     background-position: center;
     flex-grow: 1;
     text-align: center;
+    height: 670px;
     
   }
   
   .overskriftomos {
    font-size: 30px;
    color: #004266;
-   margin-top: -1%;
   }
   
   .tekstomos {
    color: white;
-   font-size: xx-large;
+   font-size: 24px;
    margin: auto auto;
-   width: 40%;
-   padding-top: 10%;
+   width: 30%;
+   padding-top: 4%;
   }
   
   .nyhedsbrev {
@@ -83,29 +87,31 @@
   }
   
   .nyhedsintro {
-    font-size: 24px;
-    width: 50%;
+    font-size: 20px;
+    width: 40%;
     margin: auto auto;
   }
   
   .input {
-    width: 100%;
-    height: 40px;
+    width: 80%;
+    height: 30px;
     border-color: #004266;
     margin-top: 0.7%;
-    font-size: 30px;
+    font-size: 24px;
   }
   
   .knap {
   float: right;
   margin-top: 0.7%;
+  margin-right: 10%;
   }
   
   .emailknap {
     border-radius: 50px;
     background-color: #F0BCED;
-    padding: 10px 50px;
-    font-size: 24px;
+    color: #004266;
+    padding: 5px 30px;
+    font-size: 20px;
   }
   
   .meltinggrey {
@@ -119,11 +125,15 @@
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    margin-left: 20%;
+    margin-left: 25%;
     justify-content: space-around;
     background-color: #EDF2FB;
-    width: 60%;
+    width: 50%;
     position: inherit;
+  }
+
+  .socialmediaicons {
+    width: 80%;
   }
 
   .clearboth {
@@ -189,10 +199,6 @@
     bottom: 0;
     max-width: 100%;
   }
-  
-  
-  /* Om os sektionen med billede af butiksejer og infobox */
-  
   
       
   }
